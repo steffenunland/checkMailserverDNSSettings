@@ -20,6 +20,11 @@ Commands:  -domain string
     	The domain whose records you want to check.`
 
 e.g.
-`./checkMailserver -domain BesterMenschDerWelt.de`
+`./checkMailserver -domain xxxx-xxxx.de
+
+   OKAY  IP-ADDRESS: 42.42.42.42
+   OKAY  MX Records: xxxx-us01.mail.protection.outlook.com.
+   OKAY  SPF Record: v=spf1 include:spf.protection.outlook.com -all
+   CRITICAL  DKIM Record: Can't find a record`
 
 
