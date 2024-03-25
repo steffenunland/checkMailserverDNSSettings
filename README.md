@@ -5,7 +5,7 @@ as whether they were found or not.
 
 
 ## dev usage
-    `go run main.go -domain domain.tld`
+`go run main.go -domain domain.tld`
 
 # build
 `go build .`
